@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Painel SDK</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link href="css/estilo.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-left">
+            <select class="form-control">
+                <option value=''></option>
+                <option value='xxx'>Equipe SDK 346</option>
+                <option value='xxx'>Equipe SDK 344</option>
+                <option value='xxx'>Equipe SDK 348</option>
+                <option value='xxx'>Equipe SDK 347</option>
+              </select>
+            <button type="submit" class="btn btn-primary">
+               <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+            <button type="submit" class="btn btn-primary">
+              <span  class='glyphicon glyphicon-refresh'></span>
+            </button>
+          </form>
+
+          <div class='text-center'>
+            <h4>Painel SDK</h4>
+          </div>
+          
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="painel">
+        
+        <!-- começo -->
+        <div class="row">
+          <div class="col-md-6">
+            
+            <h5 class='nomeTabela'>REQUISIÇÕES DE SERVIÇOS</h5>
+            <div class='table-responsive'> 
+              <table class="table table-bordered ">
+                  <thead>
+                    <tr>
+                      <th class='corTitColunas_cinza'>Status - SLA</th>
+                      <th class='text-center corTitColunas_verde'>No prazo</th>
+                      <th class='text-center corTitColunas_amarelo'>À vencer</th>
+                      <th class='text-center corTitColunas_vermelho'>Vencido</th>
+                      <th class='text-center corTitColunas_roxo'>Vip</th>
+                      <th class='text-center corTitColunas_cinza'>Total</th>  
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class='corTitulo'>Aguard. Atend.</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Em Atendimento</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Aguard. Informação</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Pendente</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Agendado</td>
+                     <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Total</td>
+                     <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</STRONG></td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+
+
+          </div>
+          <div class="col-md-3">
+              <h5 class='nomeTabela'>RDS nivel sla</h5>
+              <div class="caixa">
+                <div class="result"><span class='vermelho'>17%</span></span></div>
+                <div class="result"><span class='amarelo'>18%</span></div>
+                <div class="result"><span class='verde'>64%</span></div>
+              </div>
+
+          </div>
+          <div class="col-md-3">
+              <h5 class='nomeTabela'>incidente nível sla</h5>
+              <div class="caixa">
+                <div class="result"><span class='vermelho'>17%</span></span></div>
+                <div class="result"><span class='amarelo'>18%</span></div>
+                <div class="result"><span class='verde'>64%</span></div>
+              </div>
+          </div>
+        </div>
+      
+      <!-- fim -->
+      <!-- começo -->
+      <div class="row">
+          <div class="col-md-6">
+            
+            <h5 class='nomeTabela'>REQUISIÇÕES DE SERVIÇOS</h5>
+            <div class='table-responsive'> 
+              <table class="table table-bordered ">
+                  <thead>
+                    <tr>
+                      <th class='corTitColunas_cinza'>Status - SLA</th>
+                      <th class='text-center corTitColunas_verde'>No prazo</th>
+                      <th class='text-center corTitColunas_amarelo'>À vencer</th>
+                      <th class='text-center corTitColunas_vermelho'>Vencido</th>
+                      <th class='text-center corTitColunas_roxo'>Vip</th>
+                      <th class='text-center corTitColunas_cinza'>Total</th>  
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class='corTitulo'>Aguard. Atend.</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Em Atendimento</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Aguard. Informação</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Pendente</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Agendado</td>
+                     <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultado'>222</td>
+                      <td class='text-center corResultadoT'>222</td>
+                    </tr>
+                    <tr>
+                      <td class='corTitulo'>Total</td>
+                     <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</strong></td>
+                      <td class='text-center corResultadoT'><STRONG>222</STRONG></td>
+                    </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="row">
+                  <div class="col-md-6">
+                    <h5 class='nomeTabela'>RDS dentro do SLA</h5>
+                    <div class="caixa">
+                      <div class="result"><span class='vermelho'>17%</span></span></div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <h5 class='nomeTabela'>Incidente dentro do SLA</h5>
+                    <div class="caixa">
+                      <div class="result"><span class='verde'>17%</span></span></div>
+                    </div>
+                  </div>
+
+              </div>
+
+              
+             <div class="ajuste">
+
+                <div class="row">
+                  <div class="col-md-10 boxTitulo">Chamado em atendimento sem analista</div>
+                  <div class="col-md-2 boxValor">10</div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-10 boxTitulo">Atividades dentro do SLA</div>
+                  <div class="col-md-2 boxValor">100</div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-10 boxTitulo">Atividades fora do SLA</div>
+                  <div class="col-md-2 boxValor">1000</div>
+                </div>
+
+            </div>
+              
+
+
+
+              
+          </div>
+            
+          
+
+        </div>
+
+      <!-- fim -->
+
+
+      </div>  
+    </div>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
